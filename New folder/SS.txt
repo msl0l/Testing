@@ -1,0 +1,46 @@
+
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Interactions;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace MSRm
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            IWebDriver driver = new ChromeDriver();
+
+            driver.Navigate().GoToUrl("https://www.example.com");
+
+            //driver.Navigate().GoToUrl("https://www.google.com");
+            //var ss = ((ITakesScreenshot)driver).GetScreenshot();
+            //ss.SaveAsFile("C:\\tmp\\test.png");
+            //driver.Quit();
+            try
+            {
+                // Take a screenshot and save it to a file
+                Screenshot screenshot = ((ITakesScreenshot)driver).GetScreenshot();
+                screenshot.SaveAsFile("screenshot.png");
+
+                Console.WriteLine("Screenshot taken and saved as screenshot.png");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Error: {e.Message}");
+            }
+            finally
+            {
+                
+                //driver.Quit();
+            }
+        }
+    }
+}
