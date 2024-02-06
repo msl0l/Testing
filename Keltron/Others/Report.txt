@@ -1,0 +1,3 @@
+dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI
+
+livingdoc test-assembly Indeed.dll -t TestExecution.json
