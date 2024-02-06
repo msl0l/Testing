@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IndeedBDD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ffd5fe7efb51381794a3558226cf3186b031391")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+485c2ff295a9b9b4a5d98033663b0b307395b718")]
 [assembly: System.Reflection.AssemblyProductAttribute("IndeedBDD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IndeedBDD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

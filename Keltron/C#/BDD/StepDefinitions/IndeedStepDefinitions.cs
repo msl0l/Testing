@@ -7,12 +7,13 @@ namespace BDDExample.StepDefinitions
     public sealed class IndeedStepDefinitions
     {
 
-        private IWebDriver driver;
+        //private IWebDriver driver;
+        IWebDriver driver = new ChromeDriver();
 
-        public IndeedStepDefinitions(IWebDriver driver)
-        {
-            this.driver = driver; 
-        }
+        //public IndeedStepDefinitions(IWebDriver driver)
+        //{
+        //    this.driver = driver; 
+        //}
 
         [Given(@"Indeed Home Page")]
         public void IndeedHomePage()

@@ -2088,11 +2088,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Works\\SeleniumNUnit\\SeleniumNUnit.csproj",
+      "projectUniqueName": "D:\\Works\\Git\\Testing\\Keltron\\C#\\Selenium NUnit\\SeleniumNUnit.csproj",
       "projectName": "SeleniumNUnit",
-      "projectPath": "D:\\Works\\SeleniumNUnit\\SeleniumNUnit.csproj",
+      "projectPath": "D:\\Works\\Git\\Testing\\Keltron\\C#\\Selenium NUnit\\SeleniumNUnit.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\Works\\SeleniumNUnit\\obj\\",
+      "outputPath": "D:\\Works\\Git\\Testing\\Keltron\\C#\\Selenium NUnit\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
